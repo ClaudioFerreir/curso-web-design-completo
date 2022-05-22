@@ -9,8 +9,19 @@
 
     <style>
       body{
-        font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
-        margin: 20px 50px ;
+          font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+          width: 80%;
+          margin: auto; /*dividir o espaço que sobra entre as margens da direita e esquerda, centraliza na horizontal*/
+          color: #444;
+      }
+
+      h2{
+        font-size: 15px;
+        color: rgb(255, 0, 0);
+        border-bottom: 2px rgb(255, 0, 0) solid;
+        background-color: rgb(209, 119, 119);
+        padding: 5px;
+        font-weight: bolder;
       }
 
       h1{
@@ -25,19 +36,15 @@
         font-size: 10px;
       }
 
-      h2{
-        font-size: 15px;
-        color: rgb(255, 0, 0);
-        border-bottom: 2px rgb(255, 0, 0) solid;
-        background-color: rgb(209, 119, 119);
-        padding: 5px;
-        font-weight: bolder;
-      }
 
       a:link{
         font-weight: bold;
         text-decoration: none;
         font-size: 12px;
+      }
+
+      a:hover{
+        text-decoration: underline;
       }
 
       ul{
@@ -55,6 +62,10 @@
 
       h4{
         font-weight: 550;
+      }
+
+      .destaque{
+        font-weight: bold;
       }
 
     </style>
@@ -84,11 +95,11 @@
 
     <h2>Formação</h2>
       <h3>Graduação em Tecnologia da Informação</h3>
-        <p>01/2010 a 12/2012</p>
+        <p class="destaque">01/2010 a 12/2012</p>
         <p>Faculdade qualquer uma</p>
 
       <h3>Pós-graduação em Projetos computacionais em tecnologias front-end</h3>
-        <p>08/2014 a 12/2015</p>
+        <p class="destaque">08/2014 a 12/2015</p>
         <p>Faculdade qualquer uma</p>
 
     <h2>Cursos / Especialização</h2>
