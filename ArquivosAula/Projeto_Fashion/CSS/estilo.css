@@ -12,7 +12,7 @@ body{
 
 #menu{
   list-style: none;
-  background: rgb(100, 98, 98);
+  background: #081A24;
   height: 60px;
   color: rgb(54, 54, 54);
   text-align: right;
@@ -33,6 +33,8 @@ body{
 
 .text{
   text-align: center;
+  color: #20201E;
+  line-height: 2;
 }
 
 .cards{
@@ -60,13 +62,49 @@ body{
 
 .about{
   background-image: url(../imagens/bg_detalhe.png);
-  height: 300px;
+  height: 400px;
   background-position: left bottom;
   background-size: cover;
-  padding: 70px;
+  padding: 50px;
   color: white;
  }
 
- .about p{
-   margin-bottom: 80px;
+ .map{
+   text-align: center;
+  }
+
+ .title{
+   text-transform: uppercase;
+   font-weight: bolder;
+   font-size: 50px;
+   line-height: 1.2;
+   letter-spacing: 5px;
+   margin-top: 0;
  }
+
+ .content{
+   width: 60%;
+   line-height: 1.5;
+   text-transform: capitalize;
+   font-weight: bold;
+     }
+
+  .contact p{
+    font-size: 30px;
+    text-align: center;
+    color: #003E51;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+
+  footer{
+
+    background: #001018;
+    height: 60px;
+    text-align: center;
+  }
+
+  footer p{
+    color: #003E51;
+    padding-top: 20px;
+  }
