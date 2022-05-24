@@ -5,7 +5,7 @@ body{
 
 .header{
   background-image: url(../imagens/topo.jpg);
-  height: 700px;
+  height: 500px;
   background-position: left center;
   background-size: cover;
 }
@@ -39,7 +39,7 @@ body{
   overflow: auto;
   text-align: center;
   display: inline-block;
-  width: 100%;
+  width: 99%;
 }
 
 .card-1{
@@ -57,3 +57,16 @@ body{
   margin-left: 2%;
   width: 32%;
 }
+
+.about{
+  background-image: url(../imagens/bg_detalhe.png);
+  height: 300px;
+  background-position: left bottom;
+  background-size: cover;
+  padding: 70px;
+  color: white;
+ }
+
+ .about p{
+   margin-bottom: 80px;
+ }
