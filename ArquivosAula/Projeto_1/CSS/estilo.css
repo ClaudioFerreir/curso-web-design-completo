@@ -34,13 +34,15 @@ body{
 .hero nav ul{
   text-align: right; /*com o display inline-block o elemento se comporta como um elemento de linha*/
   margin: 15px 25px 0 0;
+  /* position: fixed; */
 }
 
 .hero nav li{
-  display: inline-block;
+
   list-style: none;
   border: 1px solid white;
   margin-left: 10px;
+  display: inline-block;
 }
 
 .hero nav a{
