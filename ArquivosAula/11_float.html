@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title> pagina de exemplo estrutura basica </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Claudio">
+    <meta name="description" content="texto que pode aparecer em uma busca do google">
+    <meta name="keywords" content="html5, tecnologia">
+  </head>
+  <style>
+    #container{
+      width: 80%;
+      padding: 15px;
+      background: #ccc;
+      /* overflow: auto; elimina o efeito colateral do float */
+    }
+
+    #container div{
+      width: 150px;
+      height: 50px;
+      border: 2px solid red;
+      margin: 5px;
+    }
+
+    #div2{
+      float: right;
+    }
+
+    #div3{
+      background: yellow;
+      /* clear: both; limpa o efeito de um clear right ou um clear left */
+      /* clear: right; anula o efeito colateral do float right */
+      /* clear:left */ /*anula o efeito colateral do float do elemento acima*/
+      /* float: right; a div container deixa de enxergar os limites do elemento */
+    }
+  </style>
+  <body>
+    <!-- conteudo da pagina -->
+    <h1>float</h1>
+    <div id="container">
+      <div id="div1">div1</div>
+      <div id="div2">div2</div>
+      <div id="div3">div3</div>
+    </div>
+  </body>
+</html>
