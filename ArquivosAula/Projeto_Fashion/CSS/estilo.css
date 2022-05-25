@@ -25,6 +25,13 @@ body{
   letter-spacing: 5px;
 }
 
+#menu li:hover{
+  display: inline-block;
+  margin: 20px;
+  letter-spacing: 5px;
+  color: #000000;
+}
+
 #logo{
   position: absolute;
   top: 15px;
@@ -35,6 +42,7 @@ body{
   text-align: center;
   color: #20201E;
   line-height: 2;
+  margin-top: 30px;
 }
 
 .cards{
@@ -42,6 +50,7 @@ body{
   text-align: center;
   display: inline-block;
   width: 99%;
+  margin-top: 30px;
 }
 
 .card-1{
@@ -67,10 +76,12 @@ body{
   background-size: cover;
   padding: 50px;
   color: white;
+  margin-top: 30px;
  }
 
  .map{
    text-align: center;
+   margin-top: 30px;
   }
 
  .title{
@@ -95,10 +106,11 @@ body{
     color: #003E51;
     text-transform: uppercase;
     font-weight: bolder;
+    margin-top: 30px;
   }
 
   footer{
-
+    margin-top: 30px;
     background: #001018;
     height: 60px;
     text-align: center;
