@@ -6,19 +6,33 @@
     <meta name="author" content="Claudio">
     <meta name="description" content="texto que pode aparecer em uma busca do google">
     <meta name="keywords" content="html5, tecnologia">
+
+    <style>
+
+      .formlogin{
+          width: 250px;
+          margin: 50px auto 0;
+      }
+
+      #pass, #user, .btn{
+        display: block;
+      }
+
+    </style>
+
   </head>
   <body>
     <!-- conteudo da pagina -->
     <h1>Exemplo de Formulario Login</h1>
 
-    <form action="#" method="post">
+    <form action="#" method="POST" class="formlogin">
       <fieldset>
         <legend>Login</legend>
         <label for="user">Digite o seu usuario</label>
         <input type="text" id="user" name="user">
         <label for="pass">Digite a senha</label>
         <input type="password" name="pass" id="pass">
-        <input type="submit" value="Login">
+        <input type="submit" value="Login" class="btn">
       </fieldset>
     </form>
   </body>
