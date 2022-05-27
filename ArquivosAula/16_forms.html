@@ -10,11 +10,24 @@
   <body>
     <!-- conteudo da pagina -->
     <h1>Exemplo de Formulario</h1>
+
     <form action="http://google.com/search" method="GET" target="_blank">
       <label for="txtbusca">Faça uma busca</label>
       <input type="text" name="q" id="txtbusca" >
       <input type="submit" value="ok">
+    </form>
 
+    <hr>
+
+    <form action="pagina.php" method="post">
+      <fieldset>
+        <legend>login</legend>
+        <label for="log">User:</label>
+        <input type="text" name="text" id="log">
+        <label for="pass">Password:</label>
+        <input type="password" name="pass" id="pass">
+        <input type="submit" value="Login">
+      </fieldset>
     </form>
   </body>
 </html>
