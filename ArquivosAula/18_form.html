@@ -36,18 +36,33 @@
 
         <label>Estado</label>
             <select name="estado" id="#">
+                <option value="0">Selecione</option>
                 <option value="SP">São Paulo</option>
                 <option value="RJ">Rio de Janeiro</option>
                 <option value="MG">Minas Gerais</option>
                 <option value="BA">Bahia</option>
             </select>
+        <!-- o servidor ira receber estado='MG' ou estado='SP' ou etc -->
 
+      </fieldset>
 
+      <fieldset>
+            <legend>Area de Interesse</legend>
+            <label><input type="checkbox" name="html" value="html">HTML</label>
+            <label><input type="checkbox" name="css" value="css">CSS</label>
+            <label><input type="checkbox" name="JS" value="JS">JavaScript</label>
+      </fieldset>
+
+      <fieldset>
+          <legend>Mensagem</legend>
+          <textarea style="resize: none" name="msg" id="" cols="30" rows="10"></textarea>
+          <textarea style="resize: none" name="contrato" id="" cols="30" rows="10" readonly>Aqui entra o texto do contrato que precisa ser aceito</textarea>
+          <label><input type="checkbox">Li e Aceito</label>
+      </fieldset>
         <br>
         <input type="submit" value="send">
 
 
-      </fieldset>
     </form>
   </body>
 </html>
