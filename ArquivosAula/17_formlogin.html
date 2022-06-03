@@ -27,14 +27,14 @@
 
       .formlogin label{
         margin-top: 15px;
-        display: block;
+        display: block; /*usado para poder aplicar margin ja que naturalmente tem um comportamento in line*/
         margin-bottom: 5px;
       }
 
       #pass, #user, .btn{
-        display: block;
+        display: block; /*usado para remover o comportamento inline dos elementos*/
         width: 100%;
-        box-sizing: border-box;
+        box-sizing: border-box; /* remove a diferenca entre as margens do btn e restante por ja possuir uma margem de padrao*/
         padding: 15px;
         font-size: 18px;
         border: none;
@@ -44,7 +44,7 @@
         background: #ddd;
       }
 
-      #pass:focus, #user:focus{
+      #pass:focus, #user:focus{  /*modifica quando esta com o foco do mouse sobre o objeto*/
         background: white;
       }
 
@@ -67,7 +67,7 @@
       <fieldset>
         <legend>Login</legend>
         <label for="user">Digite o seu usuario</label>
-        <input type="text" id="user" name="user" autofocus>
+        <input type="text" id="user" name="user" autofocus> <!-- o autofocus da um posicionamento inicial ao cursor ao carregar a pagina  -->
         <label for="pass">Digite a senha</label>
         <input type="password" name="pass" id="pass">
         <input type="submit" value="Login" class="btn">
