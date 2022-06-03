@@ -18,7 +18,23 @@
         <legend>Dados pessoais</legend>
 
         <label>Email</label>
-        <input type="text">
+        <input type="email">
+        <br>
+        <label>numero de filhos</label>
+        <input type="number" min="0" max="50">
+        <br>
+        <label>nascimento</label>
+        <input type="date" min="2018-01-30" max="2030-01-30">
+        <br>
+
+        <p>Sexo:</p>
+        <label><input type="radio" name="sexo" value="M"> <!-- atributo name nas opcoes, necessario para se comunicarem e assim termos so uma opcao selecionavel  -->
+        Masculino</label>
+        <label><input type="radio" name="sexo" value="F"> <!-- atributo value importa para termos a referencia que vai chegar no servidor. Neste caso, sexo=M ou sexo=F -->
+        Feminino</label>
+
+        <br>
+        <input type="submit" value="send">
 
 
       </fieldset>
