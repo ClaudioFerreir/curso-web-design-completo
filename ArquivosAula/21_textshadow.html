@@ -17,10 +17,18 @@
             border-radius: 50px 100px / 100px 50px; /*antes da barra referente ao eixo x e apos a barra ao eixo y assim fazemos assimetrias com elipses*/
 
             /* As referencias sao x, y, esfumaçamento, tamanho e cor. Sao permitidas mais de uma sombra aplicada e as primeiras aplicadas sobrepoe as seguintes */
+            /* valores negativos seguem para cima no eixo y e esquerda no eixo x */
             box-shadow: 10px -20px 10px 0px rgb(0, 0, 0), 10px 10px 0 red, -10px -10px 0 blue;
 
         }
 
+        h1{
+          font-family: sans-serif;
+          font-size: 50px;
+          text-align: center;
+          /* segue o mesmo padrao do box-shadow so que sem um valor para o tamanho da sombra */
+          text-shadow:  1px 1px 0 #5d5d5d;
+        }
     </style>
 
   </head>
