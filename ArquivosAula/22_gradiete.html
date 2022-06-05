@@ -9,8 +9,17 @@
 
     <style>
 
+        html, body{
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
         body{
-            background-image: linear-gradient();
+            /* pode declarar em graus ex. 70deg ou um gradiente com mais de 2 cores */
+            background-image: linear-gradient(70deg, red 200px, blue 250px, black 250px, black 300px, white 300px, white 350px, orange 400px), url(../Recursos/aula_imagens/bg.jpg);
+            /* background-image: linear-gradient(to top, rgb(0, 0, 0, .5), rgba(0, 0, 255, 0.397)), url(../Recursos/aula_imagens/bg.jpg); */
+            background-size: auto, 100% 100%;
         }
 
         #radius{
