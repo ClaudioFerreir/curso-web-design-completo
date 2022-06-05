@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title> pagina de exemplo estrutura basica </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Claudio">
+    <meta name="description" content="texto que pode aparecer em uma busca do google">
+    <meta name="keywords" content="html5, tecnologia">
+
+    <style>
+
+        body{
+            background-image: linear-gradient();
+        }
+
+        #radius{
+            background: orange;
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+
+            border-radius: 50px 100px / 100px 50px; /*antes da barra referente ao eixo x e apos a barra ao eixo y assim fazemos assimetrias com elipses*/
+
+            /* As referencias sao x, y, esfumaçamento, tamanho e cor. Sao permitidas mais de uma sombra aplicada e as primeiras aplicadas sobrepoe as seguintes */
+            /* valores negativos seguem para cima no eixo y e esquerda no eixo x */
+            box-shadow: 10px -20px 10px 0px rgb(0, 0, 0), 10px 10px 0 red, -10px -10px 0 blue;
+
+        }
+
+        h1{
+          font-family: sans-serif;
+          font-size: 50px;
+          text-align: center;
+          /* segue o mesmo padrao do box-shadow so que sem um valor para o tamanho da sombra */
+          text-shadow:  -1px 1px 0 #5d5d5d, -2px 2px 0 #727272, -3px 3px 0 #868686, -4px 4px 0 #d1d1d1, -5px 5px 0 #e0e0e0;
+          /* este efeito de sombra sobre sombra com a medida que aumenta fica mais clara pode proporcionar um efeito 3D */
+        }
+    </style>
+
+  </head>
+
+  <body>
+    <!-- conteudo da pagina -->
+    <h1>CSS efeitos</h1>
+
+    <div id="radius"></div>
+  </body>
+</html>
